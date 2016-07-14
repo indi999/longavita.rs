@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/* ========= border for footer ========== */
+
+.border {
+    border-style: solid;
+    border-color: #54b953; 
+    border-width: .5rem;
+}
+ .solid {
+   border-style: solid;
+   border-width: 1px;
+   margin-bottom: 0rem;
+   background-color: #a6a6a6;
+   color: white; 
+ }
+
+
+/* ===================== FOOTER =======================  */
+
+.hero {
+  background: url("") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  overflow: hidden; }
+  .hero h1, .hero h2 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    padding: 1rem 0 0 1rem;
+    margin: 0; }
+
+.row {
+  max-width: 1200px; }
+
+.footer {
+  background-color: #424242;
+  border-radius: 2px;
+  border-color: #DB2E42;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;  }
+  .footer .inline-list a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 3px 0 0; }
+  .footer .contact {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+    color: #fff; }
+    .footer .contact li {
+      margin-bottom: 2rem; }
+      .footer .contact li p {
+        padding-left: 5rem; }
+    .footer .contact i {
+      position: absolute;
+      background-color: #33383b;
+      color: #fff;
+      font-size: 2rem;
+      border-radius: 50%;
+      line-height: 1;
+      margin: 0 0 0 -4rem;
+      vertical-align: middle;
+      padding: .25em .45em; }
+  .footer .copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0; }
+  .footer .about {
+    color: #92999f;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0; }
+  .footer .footer-links a {
+    list-style: none;
+    font-weight: normal;
+    color: #fff;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    font-size: 0.875rem; }
+    .footer .footer-links a::after {
+      content: "•";
+      padding: 0 0.2rem 0 0.4rem; }
+    .footer .footer-links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
+  @media only screen and (min-width: 40.063em) {
+    .footer p {
+      text-align: left; }
+    .footer .social {
+      text-align: left;
+      margin: 0; }
+    .footer .contact {
+      text-align: left; }
+      .footer .contact > img {
+        margin-right: 1rem; } }
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem; }
+  .logo img {
+    margin-right: 0.5rem; 
+  }
+
+
+
+/* =========== ARRAW UP CSS =================== */
+#return-to-top {
+    position: fixed;
+    bottom: 50px; /* Arrow position */
+    right: 20px; /* Arrow position */
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px; /* Arrow size */
+    height: 50px; /* Arrow size */
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+/* #return-to-top  #arrow{
+    color: transparent;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+} */
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover #arrow {
+    color: #fff;
+    top: 5px;
+}
+
+/* Extra Things 
+ body{
+     background: #eee ;
+     font-family: 'Open Sans', sans-serif;}
+h3{
+     font-size: 30px; 
+     font-weight: 400;
+     text-align: center;
+     margin-top: 50px;}
+h3 i{color: #444;
+}
+*/
